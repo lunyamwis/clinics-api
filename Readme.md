@@ -17,8 +17,8 @@ A framework for launching new Django Rest Framework projects quickly. Comes with
 2.  Clone the repo and configure the virtual environment:
 
 ```
-$ git clone https://github.com/wsvincent/drfx.git
-$ cd drfx
+$ git clone https://github.com/lunyamwis/clinics-api.git
+$ cd clinics-api
 $ pipenv install
 $ pipenv shell
 ```
@@ -41,8 +41,3 @@ Login with your superuser account. Then navigate to all users. Logout. Sign up f
 - logout - http://127.0.0.1:8000/api/v1/rest-auth/logout/
 - signup - http://127.0.0.1:8000/api/v1/rest-auth/registration/
 
----
-
-Want to learn more about Django REST Framework? I've written an entire book that takes a project-based approach to building web APIs with Django. The first 2 chapters are available for free online at [https://djangoforapis.com/](https://djangoforapis.com/).
-
-[![Django for APIs](https://learndjango.com/static/images/books/dfa_cover_31.jpg)](https://djangoforapis.com)
