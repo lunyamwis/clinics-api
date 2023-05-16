@@ -37,6 +37,10 @@ INSTALLED_APPS = [
 
     'api',
     'users',
+    'medical_records',
+    'patients',
+    'permissions',
+    'roles'
 ]
 
 MIDDLEWARE = [
