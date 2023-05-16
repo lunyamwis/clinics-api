@@ -6,4 +6,4 @@ class Role(BaseModel):
     """
     Name: CharField 
     """
-    pass
+    name = models.CharField(max_length=255)
